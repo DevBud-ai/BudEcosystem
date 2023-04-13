@@ -55,6 +55,10 @@ export const StyledSliderBarInnerWrapper = styled('div')(() => {
     // overflowX: 'hidden',
     // overflowY: 'auto',
     position: 'relative',
+    margin: '10px 5px 10px 10px',
+    borderRadius: '5px',
+    background: '#131313',
+    border: '1px solid #222222',
   };
 });
 
@@ -73,8 +77,10 @@ export const StyledNewPageButton = styled('button')(({ theme }) => {
   return {
     height: '52px',
     ...displayFlex('flex-start', 'center'),
-    borderTop: '1px solid',
-    borderColor: theme.colors.borderColor,
+    background: '#131313',
+    margin: '5px 5px 10px 10px',
+    borderRadius: '5px',
+    border: '1px solid #222222',
     padding: '0 8px',
     svg: {
       fontSize: '20px',

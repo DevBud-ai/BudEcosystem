@@ -13,9 +13,9 @@ export type AffineNextCssVariables = {
 
 // Refs: https://github.com/toeverything/AFFiNE/issues/1796
 export const nextLightColorScheme = {
-  brandColor: 'rgb(84, 56, 255)',
+  brandColor: 'rgb(203, 144, 238)',
   tertiaryColor: 'rgb(243, 240, 255)',
-  primaryColor: 'rgb(84, 56, 255)',
+  primaryColor: 'rgb(203, 144, 238)',
   secondaryColor: 'rgb(125, 145, 255)',
   backgroundSuccessColor: 'rgb(255, 255, 255)',
   backgroundErrorColor: 'rgba(255, 255, 255, 0.2)',
@@ -30,7 +30,7 @@ export const nextLightColorScheme = {
   textPrimaryColor: 'rgb(66, 65, 73)',
   textSecondaryColor: 'rgb(142, 141, 145)',
   textDisableColor: 'rgb(169, 169, 173)',
-  textEmphasisColor: 'rgb(84, 56, 255)',
+  textEmphasisColor: 'rgb(203, 144, 238)',
   hoverColor: 'rgba(0, 0, 0, 0.04)',
   linkColor: 'rgb(125, 145, 255)',
   quoteColor: 'rgb(100, 95, 130)',
@@ -83,7 +83,7 @@ export const nextLightColorScheme = {
 };
 
 export const nextDarkColorScheme = {
-  brandColor: 'rgb(84, 56, 255)',
+  brandColor: 'rgb(203, 144, 238)',
   primaryColor: 'rgb(118, 95, 254)',
   secondaryColor: 'rgb(144, 150, 245)',
   tertiaryColor: 'rgb(30, 30, 30)',

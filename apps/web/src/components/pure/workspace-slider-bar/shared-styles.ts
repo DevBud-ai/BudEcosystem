@@ -28,7 +28,7 @@ export const StyledListItem = styled('div')<{
       : {}),
 
     '> svg, a > svg': {
-      fontSize: '20px',
+      fontSize: '18px',
       marginRight: '12px',
       color: active ? theme.colors.primaryColor : theme.colors.iconColor,
     },

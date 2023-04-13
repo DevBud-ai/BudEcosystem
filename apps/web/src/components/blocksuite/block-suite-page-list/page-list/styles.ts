@@ -3,10 +3,14 @@ import { TableRow } from '@affine/component';
 
 export const StyledTableContainer = styled('div')(({ theme }) => {
   return {
-    height: 'calc(100vh - 52px)',
+    height: 'calc(100vh - 72px)',
     padding: '78px 72px',
     maxWidth: '100%',
     overflowY: 'auto',
+    margin: '10px 10px 10px 5px',
+    background: '#131313',
+    borderRadius: '5px',
+    border: '1px solid #222222',
     [theme.breakpoints.down('md')]: {
       padding: '12px 24px',
     },
